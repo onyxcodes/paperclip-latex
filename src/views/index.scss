@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+.editor-container {
+    background-color: #eee;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.editor-live-editor {
+    background-color: #212121;
+    flex: 1;
+    max-width: 50%;
+    padding: 1rem;
+}
+
+.editor-live-preview {
+    background-color: #eee;
+    flex: 1;
+    max-width: 50%;
+    padding: 1rem;
+}
+
+.editor-live-error {
+    background-color: black;
+    min-height: 20px;
+}

@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "module": "esnext",
+    "target": "ES2017",
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "baseUrl": "src",
+    "checkJs": true
+  },
+  "experiments": {
+            "topLevelAwait": true
+  },
+  "exclude": [
+    "docs",
+    "node_modules"
+  ],
+  "include": [
+    "src"
+, "index.d.ts"  ],
+  "files": ["src/index.tsx"]
+}
